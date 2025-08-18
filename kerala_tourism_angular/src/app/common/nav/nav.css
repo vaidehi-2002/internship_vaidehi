@@ -1,0 +1,12 @@
+ul{
+    display: flex;
+    background-color: rgb(70, 24, 24);
+    color: azure;
+    justify-content:space-around;
+    list-style: none;
+    padding-top: 10px;
+    cursor: pointer;
+    /* background-image: -moz-element(\Day3\firstproject\dance1.jpeg); */
+
+
+}

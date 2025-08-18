@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+    @for(item of district; track item.id)
+    {
+    
+        <div class="col">
+            <app-card
+                [title]=item.title
+                [description]=item.description
+                [imgLink]=item.image>
+            </app-card>
+        </div>
+    }
+</div>
+</div>
+ <footer class="bg-dark text-white text-center py-3">
+    <p>&copy;2025 tourist.All Rights Reserved</p>
+</footer> 
+
+
