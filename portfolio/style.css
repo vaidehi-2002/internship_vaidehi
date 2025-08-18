@@ -1,0 +1,156 @@
+body {
+
+    color: #ededed;
+    background: url(/flower.jpg), no-repeat !important;
+    background-size: cover !important;
+    background-position:center;
+}
+
+
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #333;
+  padding: 40px 20px;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #4B0082;
+}
+
+.avatar-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
+}
+
+.avatar-text {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #764ba2;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #764ba2;
+  outline: none;
+  box-shadow: 0 0 8px rgba(118, 75, 162, 0.3);
+}
+
+button {
+  background: #764ba2;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5a379a;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.contact-info p {
+  margin: 6px 0;
+}
+
+.contact-info a {
+  color: #764ba2;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 25px;
+  }
+}
+
+profile-section img {
+    width: 100px; 
+    height: auto;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-details {
+    max-width: 400px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: flex-start; /* Align top */
+    justify-content: center;
+    gap: 30px; /* Space between image and text */
+    padding: 20px;
+}
