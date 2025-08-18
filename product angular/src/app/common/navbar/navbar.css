@@ -1,0 +1,9 @@
+ul{
+    display:flex;
+    background-color: rgb(13, 209, 199);
+    color: black;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+}
